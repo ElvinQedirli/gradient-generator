@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/scss/style.css">
+    <title>Gradient generator</title>
+</head>
+<body>
+    <div class="container">
+        <p>Gradient generator <br>CodeScriptsX</p>
+        <div id="gradient_box"></div>
+        <div class="output_box">
+            <input type="text" id="gradient_code" readonly value="background-image: linear-gradient(45deg, blue, rgb(174, 0, 255));">
+            <button id="copy_btn"><i class="fa-regular fa-copy"></i></button>
+        </div>
+        <div class="color_box">
+            <select name="gradient_type" id="gradient_type">
+                <option value="to top">to top</option>
+                <option value="to bottom">to bottom</option>
+                <option value="to left">to left</option>
+                <option value="to right">to right</option>
+                <option value="degree">degree</option>
+              </select>
+              <input type="number" name="degree" id="degree" max="100" min="1">
+            <input type="color" name="color1" id="color1" value="#0000CD">
+            <input type="color" name="color2" id="color2" value="#AE00FF">
+        </div>
+    </div>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/cbe6bd6ede.js" crossorigin="anonymous"></script>
+    <!-- Main Js -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
