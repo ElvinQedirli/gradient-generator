@@ -7,9 +7,6 @@ let option = document.querySelector("#gradient_type")
 let degreeInp = document.querySelector("#degree")
 
 
-// degreeInp("input",()=>{
-//     if(){}
-// })
 
 
 function gradientcodefunc(){
